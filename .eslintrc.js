@@ -9,12 +9,14 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:ember/recommended'
+    'plugin:ember/recommended',
+    'standard'
   ],
   env: {
     browser: true
   },
   rules: {
+    "comma-dangle": "off"
   },
   overrides: [
     // node files
